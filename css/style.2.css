@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/* FRONT-END Web~Fobiya WEB__MASTER*/
+/*CSS FONTS Web~Fobiya*/
+p {
+  color: #000; }
+
+.over_h {
+  overflow: hidden !important; }
+
+h1 {
+  color: #000;
+  text-shadow: 0 0 12px #c0c0c0;
+  font: 46px "HelveticaNeueCyr-Light";
+  text-align: center;
+  margin: 200px 0 105px 0;
+  line-height: 3.5rem;
+  font-weight: 600;
+  letter-spacing: .039rem;
+  text-transform: uppercase;
+  /* @media only screen and (max-width: 600px) and (min-width: 300px) {
+            margin: 20px 0;
+            font-size: 25px;
+        }
+        */ }
+  @media only screen and (max-width: 992px) and (min-width: 601px) {
+    h1 {
+      margin: 20px 0;
+      font-size: 30px; } }
+  @media only screen and (max-width: 1090px) and (min-width: 993px) {
+    h1 {
+      font-size: 30px; } }
+  @media only screen and (max-width: 600px) and (min-width: 540px) {
+    h1 {
+      margin: 20px 0;
+      font-size: 25px;
+      line-height: 2rem; } }
+  @media only screen and (max-width: 539px) and (min-width: 420px) {
+    h1 {
+      margin: 20px 0;
+      font-size: 20px;
+      line-height: 1.8rem; } }
+  @media only screen and (max-width: 419px) and (min-width: 300px) {
+    h1 {
+      margin: 20px 0;
+      font-size: 18px;
+      line-height: 1.6rem; } }
+
+/*CSS FONTS END Web~Fobiya*/
+/*--------------------------------------------------------- INPUT STYLE Web~Fobiya ----------------------------------------------------------*/
+/* END INPUT STYLE Web~Fobiya */
+/*------------------------------------------------------------- ANIMATION STYLE Web~Fobiya --------------------------------------------------------------*/
+/* END ANIMATION STYLE Web~Fobiya */
+/*---------------------------------------------------------------------- независимые элименты STYLE Web~Fobiya --------------------------------------------------------------------*/
+.button_d {
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+  font: 15px "OpenSans-Semibold";
+  width: 135px;
+  height: 42px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.button-blue {
+  width: 350px;
+  background: #293173;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  font: 20px "OpenSans-Semibold";
+  text-align: center;
+  padding: 10px 0; }
+  .button-blue:hover {
+    background: #495194;
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+
+/* независимые элименты STYLE Web~Fobiya --------- */
+/* checkbox CSS STYLE END Web~Fobiya*/
+.menu-left a {
+  position: relative;
+  padding-bottom: 0px;
+  font: 14px "OpenSans-Semibold";
+  color: rgba(255, 255, 255, 0.9); }
+
+header {
+  background: #293173;
+  -webkit-box-shadow: 3px 0 0 10px rgba(0, 0, 0, 0.36);
+  box-shadow: 3px 0 0 10px rgba(0, 0, 0, 0.36);
+  position: initial;
+  top: 0;
+  left: 0;
+  padding: 0 0px;
+  z-index: 3;
+  will-change: transform;
+  transition: background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  -webkit-transition: background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1), background 0.3s;
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1), background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transform: translateY(0); }
+  header nav .logo {
+    float: left;
+    padding: 0px;
+    margin-top: 6px;
+    margin-right: 1rem;
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+    line-height: inherit;
+    font-weight: 500;
+    color: black; }
+    @media only screen and (min-width: 601px) {
+      header nav .logo {
+        text-align: center; } }
+    @media only screen and (min-width: 993px) {
+      header nav .logo {
+        text-align: center; } }
+    header nav .logo:after {
+      content: '';
+      display: table;
+      clear: both; }
+  header nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; }
+    header nav ul li {
+      display: block !important;
+      -webkit-transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+      transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+      -webkit-transition: all 0.8s ease-in-out;
+      transition: all 0.8s ease-in-out;
+      float: none;
+      margin-left: 0; }
+      header nav ul li:hover ul.smoll-menu {
+        display: block; }
+      header nav ul li ul.smoll-menu {
+        background: #293173;
+        display: none;
+        position: absolute;
+        height: auto;
+        width: 150px; }
+        header nav ul li ul.smoll-menu li {
+          height: auto;
+          display: block;
+          width: 100%; }
+          header nav ul li ul.smoll-menu li a {
+            text-align: center;
+            width: 100%;
+            padding: 20px 20px;
+            display: -webkit-inline-box;
+            display: -webkit-inline-flex;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center; }
+      header nav ul li:hover {
+        background: #495194; }
+      @media only screen and (min-width: 993px) {
+        header nav ul li {
+          border-top: 0px; } }
+      @media only screen and (max-width: 768px) and (min-width: 300px) {
+        header nav ul li:nth-child(1) {
+          border-top: 1px solid rgba(192, 192, 192, 0.39); }
+        header nav ul li a {
+          height: 35px !important; } }
+      @media only screen and (min-width: 769px) {
+        header nav ul li {
+          padding: 0; } }
+      @media only screen and (max-width: 768px) and (min-width: 300px) {
+        header nav ul li {
+          padding: 8px 0; } }
+      header nav ul li a {
+        padding: 0 30px;
+        height: 90px;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        @media only screen and (max-width: 1200px) and (min-width: 1000px) {
+          header nav ul li a {
+            padding: 0 20px; } }
+        @media only screen and (max-width: 999px) and (min-width: 768px) {
+          header nav ul li a {
+            padding: 0 10px; } }
+
+@media (min-width: 950px) {
+  header nav ul li {
+    float: left;
+    height: 90px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media (max-width: 950px) {
+  ul {
+    clear: both; } }
+
+/* 
+   .hide-nav {
+        transform: translateX((-120%) !important);
+        -webkit-transform: translateX(-120%) !important;
+    }
+    */
+ul.menu-left {
+  border-top: 0px;
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 10; }
+  ul.menu-left:before {
+    content: '';
+    display: table;
+    clear: both; }
+  ul.menu-left.collapse {
+    max-height: 35em !important; }
+
+@media (min-width: 950px) {
+  ul.menu-left {
+    display: block !important;
+    float: right;
+    max-height: none; } }
+
+.nav-toggle {
+  display: block;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  float: right;
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+  padding: 20px 8px; }
+  .nav-toggle.open span:first-child {
+    -webkit-transform: rotate(45deg) translate(4.4px, 4.4px);
+    -ms-transform: rotate(45deg) translate(4.4px, 4.4px);
+    transform: rotate(45deg) translate(4.4px, 4.4px); }
+  .nav-toggle.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0; }
+  .nav-toggle.open span:last-child {
+    -webkit-transform: rotate(-45deg) translate(4.4px, -4.4px);
+    -ms-transform: rotate(-45deg) translate(4.4px, -4.4px);
+    transform: rotate(-45deg) translate(4.4px, -4.4px); }
+  .nav-toggle span {
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin-top: 4px;
+    background-color: #fff;
+    -webkit-transition: all .25s;
+    transition: all .25s; }
+
+@media (min-width: 900px) {
+  .nav-toggle {
+    display: none; } }
+
+/* END независимые элименты STYLE Web~Fobiya ------ */
+/*CSS STYLE  Web~Fobiya*/
+header {
+  min-height: 90px; }
+  header #navigation {
+    padding: 0 15px; }

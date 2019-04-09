@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cooldown.js</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="src/cooldown.js"></script>
+
+ 
+  </head>
+  <body>
+    <div id="input">
+   
+      <a id="start" class="button">Start</a>
+      <a id="stop" class="button">Stop</a>
+      <a id="pause" class="button">Pause</a>
+      <a id="resume" class="button">Resume</a>
+    </div>
+    <div id="cooldown">
+
+    </div>
+    <script>
+	
+      (function() {
+	  var cooldown = $("#cooldown").cooldown();
+cooldown.start(2);
+
+
+setInterval(function() { cooldown.start(2); }, 2000);
+
+
+
+
+	
+      })();
+    </script>
+  </body>
+</html>
